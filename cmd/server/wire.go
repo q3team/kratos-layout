@@ -5,14 +5,14 @@
 package main
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/biz"
-	"github.com/go-kratos/kratos-layout/internal/conf"
-	"github.com/go-kratos/kratos-layout/internal/data"
-	"github.com/go-kratos/kratos-layout/internal/server"
-	"github.com/go-kratos/kratos-layout/internal/service"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
+	"github.com/icarus-go/template/internal/biz"
+	"github.com/icarus-go/template/internal/conf"
+	"github.com/icarus-go/template/internal/data"
+	"github.com/icarus-go/template/internal/server"
+	"github.com/icarus-go/template/internal/service"
 )
 
 // wireApp init kratos application.
